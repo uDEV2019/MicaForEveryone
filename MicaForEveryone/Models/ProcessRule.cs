@@ -39,7 +39,7 @@ namespace MicaForEveryone.Models
 
         public RulePaneItem GetPaneItem(UI.ViewModels.ISettingsViewModel parent)
         {
-            var viewModel = Program.CurrentApp.Container.GetService<IRuleSettingsViewModel>();
+            var viewModel = App.CurrentContainer.GetService<IRuleSettingsViewModel>();
             viewModel.ParentViewModel = parent;
             viewModel.Rule = this;
             return new RulePaneItem(ProcessName, PaneItemType.Process, viewModel);

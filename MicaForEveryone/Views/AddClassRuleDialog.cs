@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Windows.ApplicationModel.Resources;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Markup;
+using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Markup;
 
 using MicaForEveryone.Interfaces;
 using MicaForEveryone.UI;
@@ -11,20 +11,13 @@ namespace MicaForEveryone.Views
 {
     internal class AddClassRuleDialog : ContentDialog
     {
-        public AddClassRuleDialog() : 
-            this(new(), Program.CurrentApp.Container.GetService<IAddClassRuleViewModel>())
-        {
-        }
-
-        private AddClassRuleDialog(ContentDialogView view, IAddClassRuleViewModel viewModel) :
-            base(view, viewModel)
+        private AddClassRuleDialog()
         {
             var resources = ResourceLoader.GetForCurrentView();
             Title = resources.GetString("AddRuleDialog/Title");
             Width = 400;
             Height = 300;
 
-            ViewModel = viewModel;
             ViewModel.Title = resources.GetString("AddClassRuleContentDialog/Title");
 
             var autoSuggestBox = (AutoSuggestBox)XamlReader.Load(@"

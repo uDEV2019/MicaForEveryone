@@ -79,23 +79,24 @@ namespace MicaForEveryone.Services
             }
             catch (ParserError error)
             {
-                Program.CurrentApp.Dispatcher.Enqueue(() =>
-                {
-                    var ctx = Program.CurrentApp.Container;
-                    var dialogService = ctx.GetService<IDialogService>();
-                    var resources = ResourceLoader.GetForCurrentView();
-                    var title = resources.GetString("ConfigFileError/Header");
-                    var body = string.Format(resources.GetString("ConfigFileError/Content"), error.Message);
-                    var dialog = dialogService?.ShowErrorDialog(null, title, body, 475, 320);
-                    if (dialog != null)
-                    {
-                        dialog.Destroy += (sender, args) =>
-                        {
-                            var viewService = ctx.GetService<IViewService>();
-                            viewService?.MainWindow.ViewModel.EditConfigCommand.Execute(null);
-                        };
-                    }
-                });
+                // FIXME
+                //Program.CurrentApp.Dispatcher.Enqueue(() =>
+                //{
+                //    var ctx = Program.CurrentApp.Container;
+                //    var dialogService = ctx.GetService<IDialogService>();
+                //    var resources = ResourceLoader.GetForCurrentView();
+                //    var title = resources.GetString("ConfigFileError/Header");
+                //    var body = string.Format(resources.GetString("ConfigFileError/Content"), error.Message);
+                //    var dialog = dialogService?.ShowErrorDialog(null, title, body, 475, 320);
+                //    if (dialog != null)
+                //    {
+                //        dialog.Destroy += (sender, args) =>
+                //        {
+                //            var viewService = ctx.GetService<IViewService>();
+                //            viewService?.MainWindow.ViewModel.EditConfigCommand.Execute(null);
+                //        };
+                //    }
+                //});
 
                 return;
             }

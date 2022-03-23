@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Windows.UI.Core;
-using Windows.UI.Xaml;
+using Microsoft.UI.Xaml;
 using Microsoft.Toolkit.Mvvm.ComponentModel;
 using Microsoft.Toolkit.Mvvm.Input;
 using Microsoft.Extensions.DependencyInjection;
@@ -91,30 +91,32 @@ namespace MicaForEveryone.ViewModels
             _mainWindow.Destroy += MainWindow_Destroy;
 
             // initialize rule service
-            _mainWindow.View.ActualThemeChanged += View_ActualThemeChanged;
-            _ruleService.SystemTitlebarColorMode = _mainWindow.View.ActualTheme switch
-            {
-                ElementTheme.Light => TitlebarColorMode.Light,
-                ElementTheme.Dark => TitlebarColorMode.Dark,
-                _ => throw new ArgumentOutOfRangeException(),
-            };
+            // FIXME
+            //_mainWindow.View.ActualThemeChanged += View_ActualThemeChanged;
+            //_ruleService.SystemTitlebarColorMode = _mainWindow.View.ActualTheme switch
+            //{
+            //    ElementTheme.Light => TitlebarColorMode.Light,
+            //    ElementTheme.Dark => TitlebarColorMode.Dark,
+            //    _ => throw new ArgumentOutOfRangeException(),
+            //};
 
             // initialize and load config file
             await _settingsService.ConfigFile.InitializeAsync();
             await _settingsService.LoadRulesAsync();
 
             // initialize startup service
-            var startupService = Program.CurrentApp.Container.GetRequiredService<IStartupService>();
+            var startupService = App.CurrentContainer.GetRequiredService<IStartupService>();
             _ = startupService.InitializeAsync();
 
             // start rule service
             await _ruleService.MatchAndApplyRuleToAllWindowsAsync();
 
             // need to be started on UI thread
-            Program.CurrentApp.Dispatcher.Enqueue(() =>
-            {
-                _ruleService.StartService();
-            });
+            // FIXME
+            //Program.CurrentApp.Dispatcher.Enqueue(() =>
+            //{
+            //    _ruleService.StartService();
+            //});
         }
 
         // event handlers
@@ -124,18 +126,19 @@ namespace MicaForEveryone.ViewModels
             if ((args.Type == SettingsChangeType.RuleChanged && args.Rule is GlobalRule)
                 || args.Type == SettingsChangeType.ConfigFileReloaded)
             {
-                Program.CurrentApp.Dispatcher.Enqueue(() =>
-                {
-                    if (GlobalRule == args.Rule)
-                    {
-                        OnPropertyChanged(nameof(BackdropType));
-                        OnPropertyChanged(nameof(TitlebarColor));
-                    }
-                    else
-                    {
-                        GlobalRule = args.Rule as GlobalRule;
-                    }
-                });
+                // FIXME
+                //Program.CurrentApp.Dispatcher.Enqueue(() =>
+                //{
+                //    if (GlobalRule == args.Rule)
+                //    {
+                //        OnPropertyChanged(nameof(BackdropType));
+                //        OnPropertyChanged(nameof(TitlebarColor));
+                //    }
+                //    else
+                //    {
+                //        GlobalRule = args.Rule as GlobalRule;
+                //    }
+                //});
             }
         }
 
@@ -215,7 +218,7 @@ namespace MicaForEveryone.ViewModels
 
         private void DoOpenSettings()
         {
-            var viewService = Program.CurrentApp.Container.GetService<IViewService>();
+            var viewService = App.CurrentContainer.GetService<IViewService>();
             viewService?.ShowSettingsWindow();
         }
     }

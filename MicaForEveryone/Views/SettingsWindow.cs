@@ -1,45 +1,32 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 using Windows.ApplicationModel.Resources;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
+using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Controls;
 using Microsoft.Extensions.DependencyInjection;
 
 using MicaForEveryone.Interfaces;
 using MicaForEveryone.Models;
 using MicaForEveryone.UI;
-using MicaForEveryone.UI.Brushes;
 using MicaForEveryone.Win32;
 using MicaForEveryone.Win32.PInvoke;
-using MicaForEveryone.Xaml;
 
 namespace MicaForEveryone.Views
 {
-    internal class SettingsWindow : XamlWindow
+    internal class SettingsWindow : Win32.Window
     {
-        private readonly XamlMicaBrush _backgroundBrush;
-
-        public SettingsWindow() : this(new())
-        {
-        }
-
-        private SettingsWindow(SettingsView view) : base(view)
+        private SettingsWindow()
         {
             Style = WindowStyles.WS_OVERLAPPEDWINDOW & ~WindowStyles.WS_MAXIMIZEBOX;
             Width = 1000;
             Height = 700;
 
-            _backgroundBrush = new XamlMicaBrush(View, this);
-
             var resources = ResourceLoader.GetForCurrentView();
             Title = resources.GetString("SettingsTitle/Text");
-
-            view.ViewModel = ViewModel;
-            view.ActualThemeChanged += View_ActualThemeChanged;
         }
 
         private ISettingsViewModel ViewModel { get; } =
-            Program.CurrentApp.Container.GetService<ISettingsViewModel>();
+            App.CurrentContainer.GetService<ISettingsViewModel>();
 
         public override void Activate()
         {
@@ -48,11 +35,9 @@ namespace MicaForEveryone.Views
             CenterToWindowScaled(GetDesktopWindow());
             UpdatePosition();
 
-            ((Grid)((SettingsView)View).Content).Background = _backgroundBrush;
-
             EnableWindowThemeAttribute(WTNCA.WTNCA_NODRAWCAPTION | WTNCA.WTNCA_NODRAWICON | WTNCA.WTNCA_NOSYSMENU);
 
-            DesktopWindowManager.SetImmersiveDarkMode(Handle, View.ActualTheme == ElementTheme.Dark);
+            // FIXME: DesktopWindowManager.SetImmersiveDarkMode(Handle, View.ActualTheme == ElementTheme.Dark);
             DesktopWindowManager.EnableMicaIfSupported(Handle);
 
             ViewModel.Initialize(this);

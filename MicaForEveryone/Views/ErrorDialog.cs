@@ -4,7 +4,7 @@ namespace MicaForEveryone.Views
 {
     public class ErrorDialog : ContentDialog
     {
-        public ErrorDialog() : base(new())
+        public ErrorDialog()
         {
             var resources = ResourceLoader.GetForCurrentView();
             Title = resources.GetString("AppName");

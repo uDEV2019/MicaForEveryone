@@ -36,7 +36,7 @@ namespace MicaForEveryone.ViewModels
             _settingsService = settingsService;
             _settingsService.Changed += SettingsService_Changed;
 
-            var vmGeneralPane = Program.CurrentApp.Container.GetService<IGeneralSettingsViewModel>();
+            var vmGeneralPane = App.CurrentContainer.GetService<IGeneralSettingsViewModel>();
             _generalPane = new GeneralPaneItem(vmGeneralPane);
 
             CloseCommand = new RelayCommand(DoClose);
@@ -94,8 +94,9 @@ namespace MicaForEveryone.ViewModels
         {
             _window = sender;
 
-            if (_generalPane.ViewModel is IGeneralSettingsViewModel vmGeneralPane)
-                vmGeneralPane.Initialize(sender);
+            // FIXME
+            //if (_generalPane.ViewModel is IGeneralSettingsViewModel vmGeneralPane)
+            //    vmGeneralPane.Initialize(sender);
 
             if (BackdropTypes.Count <= 0)
             {
@@ -145,51 +146,52 @@ namespace MicaForEveryone.ViewModels
 
         private void SettingsService_Changed(object? sender, SettingsChangedEventArgs args)
         {
-            Program.CurrentApp.Dispatcher.Enqueue(() =>
-            {
-                var pane = args.Rule?.GetPaneItem(this);
-                var lastPane = SelectedPane;
+            // FIXME
+            //Program.CurrentApp.Dispatcher.Enqueue(() =>
+            //{
+            //    var pane = args.Rule?.GetPaneItem(this);
+            //    var lastPane = SelectedPane;
 
-                switch (args.Type)
-                {
-                    case SettingsChangeType.RuleAdded:
-                        PaneItems.Add(pane!);
-                        if (args.Rule == _newRule)
-                        {
-                            SelectedPane = pane;
-                            _newRule = null;
-                        }
-                        break;
+            //    switch (args.Type)
+            //    {
+            //        case SettingsChangeType.RuleAdded:
+            //            PaneItems.Add(pane!);
+            //            if (args.Rule == _newRule)
+            //            {
+            //                SelectedPane = pane;
+            //                _newRule = null;
+            //            }
+            //            break;
 
-                    case SettingsChangeType.RuleRemoved:
-                        PaneItems.Remove(pane!);
-                        if (args.Rule == _newRule)
-                        {
-                            SelectedPane = pane;
-                            _newRule = null;
-                        }
-                        break;
+            //        case SettingsChangeType.RuleRemoved:
+            //            PaneItems.Remove(pane!);
+            //            if (args.Rule == _newRule)
+            //            {
+            //                SelectedPane = pane;
+            //                _newRule = null;
+            //            }
+            //            break;
 
-                    case SettingsChangeType.RuleChanged:
-                        var index = PaneItems.IndexOf(pane!);
-                        PaneItems.Insert(index, pane!);
-                        PaneItems.RemoveAt(index + 1);
-                        if (lastPane?.Equals(pane) ?? false)
-                            SelectedPane = pane;
-                        break;
+            //        case SettingsChangeType.RuleChanged:
+            //            var index = PaneItems.IndexOf(pane!);
+            //            PaneItems.Insert(index, pane!);
+            //            PaneItems.RemoveAt(index + 1);
+            //            if (lastPane?.Equals(pane) ?? false)
+            //                SelectedPane = pane;
+            //            break;
 
-                    case SettingsChangeType.ConfigFileReloaded:
-                        SelectedPane = null;
-                        PaneItems.Clear();
-                        PopulatePanes();
+            //        case SettingsChangeType.ConfigFileReloaded:
+            //            SelectedPane = null;
+            //            PaneItems.Clear();
+            //            PopulatePanes();
 
-                        // return to last pane if it's still there
-                        lastPane = PaneItems.FirstOrDefault(item => item.Equals(lastPane));
-                        if (lastPane != null)
-                            SelectedPane = lastPane;
-                        break;
-                }
-            });
+            //            // return to last pane if it's still there
+            //            lastPane = PaneItems.FirstOrDefault(item => item.Equals(lastPane));
+            //            if (lastPane != null)
+            //                SelectedPane = lastPane;
+            //            break;
+            //    }
+            //});
         }
 
         // commands 
@@ -201,38 +203,40 @@ namespace MicaForEveryone.ViewModels
 
         private void DoAddProcessRule()
         {
-            var dialogService = Program.CurrentApp.Container.GetService<IDialogService>();
+            var dialogService = App.CurrentContainer.GetService<IDialogService>();
 
-            AddProcessRuleDialog dialog = new();
-            dialog.Destroy += (sender, args) =>
-            {
-                dialog.Dispose();
-            };
-            dialog.ViewModel.Submit += async (sender, args) =>
-            {
-                _newRule = new ProcessRule(dialog.ViewModel.ProcessName);
-                await _settingsService.CommitChangesAsync(SettingsChangeType.RuleAdded, _newRule);
-            };
+            // FIXME
+            //AddProcessRuleDialog dialog = new();
+            //dialog.Destroy += (sender, args) =>
+            //{
+            //    dialog.Dispose();
+            //};
+            //dialog.ViewModel.Submit += async (sender, args) =>
+            //{
+            //    _newRule = new ProcessRule(dialog.ViewModel.ProcessName);
+            //    await _settingsService.CommitChangesAsync(SettingsChangeType.RuleAdded, _newRule);
+            //};
 
-            dialogService?.ShowDialog(_window, dialog);
+            //dialogService?.ShowDialog(_window, dialog);
         }
 
         private void DoAddClassRule()
         {
-            var dialogService = Program.CurrentApp.Container.GetService<IDialogService>();
+            var dialogService = App.CurrentContainer.GetService<IDialogService>();
 
-            AddClassRuleDialog dialog = new();
-            dialog.Destroy += (sender, args) =>
-            {
-                dialog.Dispose();
-            };
-            dialog.ViewModel.Submit += async (sender, args) =>
-            {
-                _newRule = new ClassRule(dialog.ViewModel.ClassName);
-                await _settingsService.CommitChangesAsync(SettingsChangeType.RuleAdded, _newRule);
-            };
+            // FIXME
+            //AddClassRuleDialog dialog = new();
+            //dialog.Destroy += (sender, args) =>
+            //{
+            //    dialog.Dispose();
+            //};
+            //dialog.ViewModel.Submit += async (sender, args) =>
+            //{
+            //    _newRule = new ClassRule(dialog.ViewModel.ClassName);
+            //    await _settingsService.CommitChangesAsync(SettingsChangeType.RuleAdded, _newRule);
+            //};
 
-            dialogService?.ShowDialog(_window, dialog);
+            //dialogService?.ShowDialog(_window, dialog);
         }
 
         private async Task DoRemoveRuleAsync()

@@ -15,20 +15,22 @@ namespace MicaForEveryone.Services
         public void Run()
         {
             if (MainWindow != null) return;
-            MainWindow = new MainWindow();
-            MainWindow.Destroy += MainWindow_Destroy;
-            MainWindow.Activate();
-            Program.CurrentApp.Run(MainWindow);
+            // FIXME
+            //MainWindow = new MainWindow();
+            //MainWindow.Destroy += MainWindow_Destroy;
+            //MainWindow.Activate();
+            //Program.CurrentApp.Run(MainWindow);
         }
 
         public void ShowSettingsWindow()
         {
             if (SettingsWindow == null)
             {
-                SettingsWindow = new SettingsWindow();
-                SettingsWindow.Destroy += SettingsWindow_Destroy;
+                // FIXME
+                //SettingsWindow = new SettingsWindow();
+                //SettingsWindow.Destroy += SettingsWindow_Destroy;
 
-                SettingsWindow.Activate();
+                //SettingsWindow.Activate();
             }
             else
             {

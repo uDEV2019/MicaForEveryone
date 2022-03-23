@@ -9,10 +9,12 @@ using Windows.Storage.Pickers;
 using Windows.UI.Core;
 using Microsoft.Toolkit.Mvvm.ComponentModel;
 using Microsoft.Toolkit.Mvvm.Input;
+using Microsoft.UI.Xaml;
+using Microsoft.UI.Dispatching;
 
 using MicaForEveryone.Interfaces;
 using MicaForEveryone.Models;
-using MicaForEveryone.Xaml;
+using WinRT.Interop;
 
 #nullable enable
 
@@ -24,7 +26,7 @@ namespace MicaForEveryone.ViewModels
         private readonly IStartupService _startupService;
         private readonly ILanguageService _languageService;
 
-        private XamlWindow? _window;
+        private Window? _window;
         private Language _currentLanguage;
 
         public GeneralSettingsViewModel(ISettingsService settingsService, IStartupService startupService, ILanguageService languageService)
@@ -49,7 +51,7 @@ namespace MicaForEveryone.ViewModels
             _settingsService.Changed -= SettingsService_Changed;
         }
 
-        public void Initialize(XamlWindow sender)
+        public void Initialize(Window sender)
         {
             _window = sender;
         }
@@ -125,7 +127,7 @@ namespace MicaForEveryone.ViewModels
 
         private void SettingsService_Changed(object? sender, SettingsChangedEventArgs args)
         {
-            Program.CurrentApp.Dispatcher.Enqueue(() =>
+            _window?.DispatcherQueue.TryEnqueue(DispatcherQueuePriority.Normal, () =>
             {
                 switch (args.Type)
                 {
@@ -163,7 +165,7 @@ namespace MicaForEveryone.ViewModels
             };
 
             // initialize picker with parent window
-            ((IInitializeWithWindow)(object)picker).Initialize(_window!.Interop.WindowHandle);
+            InitializeWithWindow.Initialize(picker, WindowNative.GetWindowHandle(_window));
 
             // ask user to pick a file
             var file = await picker.PickSingleFileAsync();

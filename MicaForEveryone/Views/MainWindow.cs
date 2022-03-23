@@ -2,18 +2,17 @@
 using System.Drawing;
 using Microsoft.Extensions.DependencyInjection;
 using Windows.ApplicationModel.Resources;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
+using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Controls;
 
 using MicaForEveryone.Interfaces;
 using MicaForEveryone.UI;
 using MicaForEveryone.Win32;
 using MicaForEveryone.Win32.PInvoke;
-using MicaForEveryone.Xaml;
 
 namespace MicaForEveryone.Views
 {
-    internal class MainWindow : XamlWindow
+    internal class MainWindow : Win32.Window
     {
         public const string OpenSettingsMessage = "MicaForEveryone_OpenSettings";
 
@@ -22,11 +21,7 @@ namespace MicaForEveryone.Views
         private readonly NotifyIcon _notifyIcon;
         private uint _openSettingsMessage;
 
-        public MainWindow() : this(new())
-        {
-        }
-
-        private MainWindow(TrayIconView view) : base(view)
+        private MainWindow()
         {
             Style = WindowStyles.WS_POPUPWINDOW;
             StyleEx = WindowStylesEx.WS_EX_TOPMOST;
@@ -47,12 +42,10 @@ namespace MicaForEveryone.Views
             _notifyIcon.ContextMenu += NotifyIcon_ContextMenu;
             _notifyIcon.OpenPopup += NotifyIcon_OpenPopup;
             _notifyIcon.ClosePopup += NotifyIcon_ClosePopup;
-
-            view.ViewModel = ViewModel;
         }
 
         public ITrayIconViewModel ViewModel { get; } =
-            Program.CurrentApp.Container.GetService<ITrayIconViewModel>();
+            App.CurrentContainer.GetService<ITrayIconViewModel>();
 
         public async override void Activate()
         {
@@ -136,45 +129,48 @@ namespace MicaForEveryone.Views
 
         public void ShowContextMenu(Point offset, Rectangle notifyIconRect)
         {
-            if (View.ContextFlyout is MenuFlyout menu)
-            {
-                if (menu.IsOpen)
-                {
-                    menu.Hide();
-                    return;
-                }
+            // FIXME
+            //if (View.ContextFlyout is MenuFlyout menu)
+            //{
+            //    if (menu.IsOpen)
+            //    {
+            //        menu.Hide();
+            //        return;
+            //    }
 
-                SetForegroundWindow();
+            //    SetForegroundWindow();
 
-                X = notifyIconRect.X;
-                Y = notifyIconRect.Y;
-                Width = notifyIconRect.Width;
-                Height = notifyIconRect.Height;
-                SetWindowPos(IntPtr.Zero, SetWindowPosFlags.SWP_NOZORDER | SetWindowPosFlags.SWP_NOACTIVATE);
+            //    X = notifyIconRect.X;
+            //    Y = notifyIconRect.Y;
+            //    Width = notifyIconRect.Width;
+            //    Height = notifyIconRect.Height;
+            //    SetWindowPos(IntPtr.Zero, SetWindowPosFlags.SWP_NOZORDER | SetWindowPosFlags.SWP_NOACTIVATE);
 
-                var position = new Windows.Foundation.Point(
-                        (offset.X - notifyIconRect.X) * ScaleFactor,
-                        (offset.Y - notifyIconRect.Y) * ScaleFactor);
-                menu.ShowAt(View, position);
-            }
+            //    var position = new Windows.Foundation.Point(
+            //            (offset.X - notifyIconRect.X) * ScaleFactor,
+            //            (offset.Y - notifyIconRect.Y) * ScaleFactor);
+            //    menu.ShowAt(View, position);
+            //}
         }
 
         public void ShowTooltipPopup(Rectangle notifyIconRect)
         {
-            X = notifyIconRect.X;
-            Y = notifyIconRect.Y;
-            Width = notifyIconRect.Width;
-            Height = notifyIconRect.Height;
-            SetWindowPos(IntPtr.Zero, SetWindowPosFlags.SWP_NOZORDER | SetWindowPosFlags.SWP_NOACTIVATE);
+            // FIXME
+            //X = notifyIconRect.X;
+            //Y = notifyIconRect.Y;
+            //Width = notifyIconRect.Width;
+            //Height = notifyIconRect.Height;
+            //SetWindowPos(IntPtr.Zero, SetWindowPosFlags.SWP_NOZORDER | SetWindowPosFlags.SWP_NOACTIVATE);
 
-            var tooltip = (ToolTip)ToolTipService.GetToolTip(View);
-            tooltip.IsOpen = true;
+            //var tooltip = (ToolTip)ToolTipService.GetToolTip(View);
+            //tooltip.IsOpen = true;
         }
 
         public void HideTooltipPopup()
         {
-            var tooltip = (ToolTip)ToolTipService.GetToolTip(View);
-            tooltip.IsOpen = false;
+            // FIXME
+            //var tooltip = (ToolTip)ToolTipService.GetToolTip(View);
+            //tooltip.IsOpen = false;
         }
     }
 }
