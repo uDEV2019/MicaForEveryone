@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,40 +118,40 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AboutTitle.Text" xml:space="preserve">
-    <value>Tentang aplikasi ini</value>
+    <value>O ovoj aplikaciji</value>
   </data>
   <data name="AcrylicBackdropDescription.Text" xml:space="preserve">
-    <value>Akrilik memaksa semua aplikasi untuk menggunakan efek latar buram bergaya Windows 10.</value>
+    <value>Acrylic čini da sve aplikacije koriste pozadinski efekat zamućenja u stilu Windows-a 10.</value>
   </data>
   <data name="AcrylicMenuItem.Text" xml:space="preserve">
-    <value>Akrilik</value>
+    <value>Acrylic</value>
   </data>
   <data name="AddButton.Content" xml:space="preserve">
-    <value>Tambah</value>
+    <value>Dodaj</value>
   </data>
   <data name="AddClassRuleContentDialog.Title" xml:space="preserve">
-    <value>Aturan Class Baru</value>
+    <value>Novo pravilo za klasu</value>
   </data>
   <data name="AddClassRuleMenuItem.Text" xml:space="preserve">
-    <value>Tambah Aturan Class</value>
+    <value>Dodaj pravilo za klasu</value>
   </data>
   <data name="AddProcessRuleContentDialog.Title" xml:space="preserve">
-    <value>Aturan Proses Baru</value>
+    <value>Novo pravilo za proces</value>
   </data>
   <data name="AddProcessRuleMenuItem.Text" xml:space="preserve">
-    <value>Tambah Aturan Proses</value>
+    <value>Dodaj pravilo za proces</value>
   </data>
   <data name="AddRuleAppBarButton.Label" xml:space="preserve">
-    <value>Tambah Aturan</value>
+    <value>Dodaj pravilo</value>
   </data>
   <data name="AddRuleDialog.Title" xml:space="preserve">
-    <value>Tambah Aturan</value>
+    <value>Dodaj pravilo</value>
   </data>
   <data name="AdvancedMenu.Text" xml:space="preserve">
-    <value>Berkas konfigurasi</value>
+    <value>Konf. datoteka</value>
   </data>
   <data name="AppInitializationError.Title" xml:space="preserve">
-    <value>Kesalahan saat menginisialisasi aplikasi</value>
+    <value>Greška u inicijalizaciji aplikacije</value>
   </data>
   <data name="AppName" xml:space="preserve">
     <value>Mica For Everyone</value>
@@ -160,169 +160,169 @@
     <value>Mica For Everyone</value>
   </data>
   <data name="BackdropDescription.Text" xml:space="preserve">
-    <value>Tetapkan jenis tampilan latar,</value>
+    <value>Izaberite tip pozadine.</value>
   </data>
   <data name="BackdropMenu.Text" xml:space="preserve">
-    <value>Jenis Tampilan Latar</value>
+    <value>Tip pozadinskog efekta</value>
   </data>
   <data name="BackdropTypeSetting.Header" xml:space="preserve">
-    <value>Jenis Tampilan Latar</value>
+    <value>Tip pozadinskog efekta</value>
   </data>
   <data name="BlurBehindSetting.Description" xml:space="preserve">
-    <value>Membuat jendela tembus dan buram. Menonaktifkan opsi ini mengharuskan Anda menutup dan membuka kembali jendela yang terpengaruh.</value>
+    <value>Čini da prozori budu prozirni i zamućeni. Nakon što onemogućite ovu opciju, morate da zatvorite i ponovo otvorite prozore.</value>
   </data>
   <data name="BlurBehindSetting.Header" xml:space="preserve">
-    <value>Buram di Belakang</value>
+    <value>Zamućenje pozadi</value>
   </data>
   <data name="BrowseButton.Content" xml:space="preserve">
-    <value>Jelajahi</value>
+    <value>Potraži</value>
   </data>
   <data name="CancelButton.Content" xml:space="preserve">
-    <value>Batal</value>
+    <value>Otkaži</value>
   </data>
   <data name="ClassNameSuggestBox.Description" xml:space="preserve">
-    <value>Masukkan nama Class jendela</value>
+    <value>Unesite ime klase prozora</value>
   </data>
   <data name="ClassNameSuggestBox.Header" xml:space="preserve">
-    <value>Nama Class:</value>
+    <value>Ime klase:</value>
   </data>
   <data name="CloseButton.Content" xml:space="preserve">
-    <value>Tutup</value>
+    <value>Zatvori</value>
   </data>
   <data name="ConfigFileError.Content" xml:space="preserve">
-    <value>Kesalahan dalam berkas konfigurasi:
+    <value>Greška u konfiguracionoj datoteci:
 {0}
 
-Perbaiki kesalahan lalu gunakan opsi "Muat ulang file konfigurasi" untuk memuatnya kembali.</value>
+Popravite greške, pa pritisnite "Ponovo učitaj konf. datoteku"</value>
   </data>
   <data name="ConfigFileError.Header" xml:space="preserve">
-    <value>Kesalahan dalam berkas konfigurasi</value>
+    <value>Greška u konf. datoteci</value>
   </data>
   <data name="ConfigFilePathSetting.Description" xml:space="preserve">
-    <value>Berkas yang akan digunakan untuk menyimpan dan memuat aturan.</value>
+    <value>Datoteka koja će se koristiti za čuvanje i čitanje pravila.</value>
   </data>
   <data name="ConfigFilePathSetting.Header" xml:space="preserve">
-    <value>Jalur Berkas</value>
+    <value>Putanja datoteke</value>
   </data>
   <data name="DarkMenuItem.Text" xml:space="preserve">
-    <value>Gelap</value>
+    <value>Tamno</value>
   </data>
   <data name="DarkTitlebarColorDescription.Text" xml:space="preserve">
-    <value>Gelap menggunakan tema gelap.</value>
+    <value>Tamno koristi tamnu temu.</value>
   </data>
   <data name="DefaultBackdropDescription.Text" xml:space="preserve">
-    <value>Default tidak melakukan apa pun untuk mempertahankan tampilan latar default aplikasi.</value>
+    <value>Opcija "Podrazumevano" ostavlja podrazumevani pozadinski efekat aplikacije.</value>
   </data>
   <data name="DefaultMenuItem.Text" xml:space="preserve">
-    <value>Default</value>
+    <value>Podrazumevano</value>
   </data>
   <data name="DefaultTitlebarColorDescription.Text" xml:space="preserve">
-    <value>Opsi "Default" menyimpan tema bawaan aplikasi.</value>
+    <value>Opcija "Podrazumevano" ostavlja podrazumevanu temu aplikacije.</value>
   </data>
   <data name="ExitMenuItem.Text" xml:space="preserve">
-    <value>Keluar</value>
+    <value>Izađi</value>
   </data>
   <data name="ExtendFrameIntoClientAreaSetting.Header" xml:space="preserve">
-    <value>Perluas Bingkai Ke Area Klien</value>
+    <value>Produži ram u klijentski prostor</value>
   </data>
   <data name="ExtendFrameIntoClientAreaSetting.Description" xml:space="preserve">
-    <value>Perluas bingkai jendela ke area kliennya untuk menambahkan latar belakang di latar belakang beberapa aplikasi. Itu tidak berfungsi pada setiap aplikasi dan dapat merusaknya, jadi jangan aktifkan ini kecuali Anda tahu apa yang Anda lakukan. Menonaktifkan opsi ini mengharuskan Anda menutup dan membuka kembali jendela yang terpengaruh.</value>
+    <value>Produžava ram prozora u klijentsku oblast i dodaje pozadinski efekat na pozadinu nekih aplikacija. Ne radi za sve aplikacije i može izazvati neželjene posledice, tako da ne omogućavajte ovo ako ne znate šta radite. Nakon što onemogućite ovu opciju, morate da zatvorite i ponovo otvorite prozore.</value>
   </data>
   <data name="GeneralPaneItem.Text" xml:space="preserve">
-    <value>Umum</value>
+    <value>Opšte</value>
   </data>
   <data name="GeneralSetting.Header" xml:space="preserve">
-    <value>Umum</value>
+    <value>Opšte</value>
   </data>
   <data name="GitHubButton.Content" xml:space="preserve">
     <value>GitHub</value>
   </data>
   <data name="GlobalRulePaneItem.Text" xml:space="preserve">
-    <value>Aturan Global</value>
+    <value>Globalno pravilo</value>
   </data>
   <data name="LanguageSetting.Description" xml:space="preserve">
-    <value>Setel bahasa pilihan Anda untuk UI. Aplikasi perlu restart untuk diterapkan.</value>
+    <value>Izaberite jezik aplikacije. Stupa na snagu od sledećeg pokretanja.</value>
   </data>
   <data name="LanguageSetting.Header" xml:space="preserve">
-    <value>Bahasa</value>
+    <value>Jezik</value>
   </data>
   <data name="LightMenuItem.Text" xml:space="preserve">
-    <value>Terang</value>
+    <value>Svetlo</value>
   </data>
   <data name="LightTitlebarColorDescription.Text" xml:space="preserve">
-    <value>Terang menggunakan tema terang.</value>
+    <value>Svetlo koristi svetlu temu.</value>
   </data>
   <data name="MicaBackdropDescription.Text" xml:space="preserve">
-    <value>Mika memaksa semua aplikasi untuk menggunakan efek backdrop wallpaper berwarna gaya Windows 11.</value>
+    <value>Mica čini da sve aplikacije koriste pozadinski efekat obojene pozadine u stilu Windows-a 11.</value>
   </data>
   <data name="MicaMenuItem.Text" xml:space="preserve">
-    <value>Mika</value>
+    <value>Mica</value>
   </data>
   <data name="NoneBackdropDescription.Text" xml:space="preserve">
-    <value>"Tidak ada" menonaktifkan tampilan latar, bahkan pada aplikasi yang telah mengaktifkannya.</value>
+    <value>"Ništa" onemogućava pozadinske efekte, čak i u aplikacijama u kojima su omogućeni.</value>
   </data>
   <data name="NoneMenuItem.Text" xml:space="preserve">
-    <value>Tidak ada</value>
+    <value>Ništa</value>
   </data>
   <data name="OkButton.Text" xml:space="preserve">
-    <value>Baik</value>
+    <value>OK</value>
   </data>
   <data name="OpenInEditorMenuItem.Text" xml:space="preserve">
-    <value>Buka di penyunting teks</value>
+    <value>Otvori u tekstualnom editoru</value>
   </data>
   <data name="ProcessNameSuggestBox.Description" xml:space="preserve">
-    <value>Masukkan nama berkas yang dapat dieksekusi tanpa ekstensi (.exe)</value>
+    <value>Unesite ime izvršne datoteke bez ekstenzije (.exe)</value>
   </data>
   <data name="ProcessNameSuggestBox.Header" xml:space="preserve">
-    <value>Nama Proses:</value>
+    <value>Ime procesa:</value>
   </data>
   <data name="ReloadMenuItem.Text" xml:space="preserve">
-    <value>Muat ulang</value>
+    <value>Ponovo učitaj</value>
   </data>
   <data name="ReloadOnChangeSetting.Description" xml:space="preserve">
-    <value>Muat ulang konfigurasi secara otomatis saat file konfigurasi diubah.</value>
+    <value>Automatski učitava konfiguraciju čim se konf. datoteka promeni.</value>
   </data>
   <data name="ReloadOnChangeSetting.Header" xml:space="preserve">
-    <value>Muat ulang pada perubahan</value>
+    <value>Ponovo učitaj pri promeni</value>
   </data>
   <data name="RemoveRuleAppBarButton.Label" xml:space="preserve">
-    <value>Hapus Aturan</value>
+    <value>Ukloni pravilo</value>
   </data>
   <data name="SettingsMenuItem.Text" xml:space="preserve">
-    <value>Setelan</value>
+    <value>Postavke</value>
   </data>
   <data name="SettingsTitle.Text" xml:space="preserve">
-    <value>Setelan</value>
+    <value>Postavke</value>
   </data>
   <data name="StartupSetting.Description" xml:space="preserve">
-    <value>Jalankan aplikasi ini secara otomatis saat startup.</value>
+    <value>Pokreće aplikaciju automatski čim se prijavite.</value>
   </data>
   <data name="StartupSetting.Header" xml:space="preserve">
-    <value>Mulai ketika startup</value>
+    <value>Pokreći pri prijavljivanju</value>
   </data>
   <data name="SystemMenuItem.Text" xml:space="preserve">
     <value>Sistem</value>
   </data>
   <data name="SystemTitlebarColorDescription.Text" xml:space="preserve">
-    <value>Sistem menggunakan preferensi tema Anda.</value>
+    <value>Sistem koristi vašu preferiranu temu.</value>
   </data>
   <data name="TabbedBackdropDescription.Text" xml:space="preserve">
-    <value>Tab memaksa semua aplikasi untuk menggunakan efek latar wallpaper buram.</value>
+    <value>Tabbed čini da sve aplikacije koriste pozadinski efekat zamućene pozadine.</value>
   </data>
   <data name="TabbedMenuItem.Text" xml:space="preserve">
-    <value>Bertab</value>
+    <value>Tabbed</value>
   </data>
   <data name="TelegramButton.Content" xml:space="preserve">
     <value>Telegram</value>
   </data>
   <data name="TitlebarColorDescription.Text" xml:space="preserve">
-    <value>Tetapkan tema warna bilah judul,</value>
+    <value>Podešava temu boje naslovnih traka.</value>
   </data>
   <data name="TitlebarColorMenu.Text" xml:space="preserve">
-    <value>Warna Bilah Judul</value>
+    <value>Boja naslovne trake</value>
   </data>
   <data name="TitleBarColorSetting.Header" xml:space="preserve">
-    <value>Warna Bilah Judul</value>
+    <value>Boja naslovne trake</value>
   </data>
   <data name="TrayIconTooltip.Content" xml:space="preserve">
     <value>Mica For Everyone</value>
@@ -331,105 +331,105 @@ Perbaiki kesalahan lalu gunakan opsi "Muat ulang file konfigurasi" untuk memuatn
     <value>Twitter</value>
   </data>
   <data name="UnhandledException.Header" xml:space="preserve">
-    <value>Pengecualian Tidak Tertangani</value>
+    <value>Unhandled Exception</value>
   </data>
   <data name="UnhandledUIException.Header" xml:space="preserve">
-    <value>Pengecualian Tidak Tertangani di UI</value>
+    <value>Unhandled Exception in UI</value>
   </data>
   <data name="UnsupportedBackdropDescription.Text" xml:space="preserve">
-    <value>Efek latar belakang Akrilik dan Tab membutuhkan setidaknya Windows build 22523.</value>
+    <value>Pozadinski efekti Acrylic i Tabbed zahtevaju barem Windows podverziju 22523.</value>
   </data>
   <data name="UnsupportedImmersiveDarkModeDescription.Text" xml:space="preserve">
-    <value>Mode Gelap Imersif membutuhkan setidaknya Windows build 19041.</value>
+    <value>Imerzivna tamna tema zahteva barem Windows podverziju 19041.</value>
   </data>
   <data name="UnsupportedMicaDescription.Text" xml:space="preserve">
-    <value>Efek mika membutuhkan setidaknya Windows build 22000.</value>
+    <value>Efekat Mica zahteva barem Windows podverziju 22000.</value>
   </data>
   <data name="VersionLabel.Text" xml:space="preserve">
-    <value>Versi</value>
+    <value>Verzija</value>
   </data>
   <data name="AdvancedSetting.Header" xml:space="preserve">
-    <value>Lanjutan</value>
+    <value>Napredno</value>
   </data>
   <data name="ConfigFileSetting.Header" xml:space="preserve">
-    <value>Berkas konfigurasi</value>
+    <value>Konfiguraciona datoteka</value>
   </data>
   <data name="StyleSetting.Header" xml:space="preserve">
-    <value>Gaya</value>
+    <value>Stil</value>
   </data>
   <data name="OpenInEditorSetting.Description" xml:space="preserve">
-    <value>Buka berkas konfigurasi di editor teks default Anda.</value>
+    <value>Otvara konf. datoteku u podrazumevanom tekstualnom editoru.</value>
   </data>
   <data name="OpenInEditorSetting.Header" xml:space="preserve">
-    <value>Ubah di editor teks</value>
+    <value>Otvori u tekstualnom editoru</value>
   </data>
   <data name="ReloadSetting.Description" xml:space="preserve">
-    <value>Muat ulang aturan dari berkas konfigurasi lalu terapkan ke semua jendela yang terbuka.</value>
+    <value>Ponovo učitava pravila iz konf. datoteke, pa ih primenjuje na sve otvorene prozore.</value>
   </data>
   <data name="ReloadSetting.Header" xml:space="preserve">
-    <value>Muat ulang</value>
+    <value>Ponovo učitaj konf. datoteku</value>
   </data>
   <data name="ResetSetting.Description" xml:space="preserve">
-    <value>Pulihkan aturan default dan hapus semua perubahan.</value>
+    <value>Vraća predefinisana pravila i briše sve promene.</value>
   </data>
   <data name="ResetSetting.Header" xml:space="preserve">
-    <value>Reset</value>
+    <value>Resetuj</value>
   </data>
   <data name="Credit.Text" xml:space="preserve">
-    <value>Oleh</value>
+    <value>Autor:</value>
   </data>
   <data name="IconCredit.Text" xml:space="preserve">
-    <value>Ikon oleh:</value>
+    <value>Ikonicu uradio:</value>
   </data>
   <data name="TranslatorsCredit.Text" xml:space="preserve">
-    <value>Terjemahan oleh:</value>
+    <value>Prevodioci:</value>
   </data>
   <data name="CornerMenu.Text" xml:space="preserve">
-    <value>Modus Sudut</value>
+    <value>Režim uglova</value>
   </data>
   <data name="CornerPreferenceSetting.Header" xml:space="preserve">
-    <value>Modus Sudut</value>
+    <value>Režim uglova</value>
   </data>
   <data name="SquareMenuItem.Text" xml:space="preserve">
-    <value>Persegi</value>
+    <value>Četvrtasti</value>
   </data>
   <data name="RoundedMenuItem.Text" xml:space="preserve">
-    <value>Membulat</value>
+    <value>Zakrugljeni</value>
   </data>
   <data name="RoundedSmallMenuItem.Text" xml:space="preserve">
-    <value>Agak membulat</value>
+    <value>Blago zakrugljeni</value>
   </data>
   <data name="CornerDescription.Text" xml:space="preserve">
-    <value>Setel mode pembulatan sudut,</value>
+    <value>Podešava režim uglova prozora.</value>
   </data>
   <data name="DefaultCornerDescription.Text" xml:space="preserve">
-    <value>Default tidak melakukan apa pun untuk mempertahankan mode pembulatan sudut yang disukai aplikasi.</value>
+    <value>Opcija "Podrazumevano" ostavlja podrazumevano zakrugljenje uglova prozora.</value>
   </data>
   <data name="SquareCornerDescription.Text" xml:space="preserve">
-    <value>Mode persegi menonaktifkan pembulatan sudut.</value>
+    <value>Četvrtasti režim onemogućava zakrugljivanje uglova.</value>
   </data>
   <data name="RoundedCornerDescription.Text" xml:space="preserve">
-    <value>Mode membulat memungkinkan sudut membulat secara paksa.</value>
+    <value>Zakrugljeni režim prinudno omogućava zakrugljene uglove.</value>
   </data>
   <data name="RoundedSmallCornerDescription.Text" xml:space="preserve">
-    <value>Mode agak membulat berada di tengah antara sudut persegi dan sudut membulat.</value>
+    <value>Blago zakrugljeni režim je nešto između četvrtastih i zakrugljenih uglova.</value>
   </data>
   <data name="AdminStartupSetting.Description" xml:space="preserve">
-    <value>Jalankan aplikasi ini secara otomatis sebagai administrator saat startup. Anda perlu menjalankan aplikasi sebagai Administrator untuk mengaktifkan opsi ini.</value>
+    <value>Pokreće aplikaciju kao administrator automatski čim se prijavite. Morate da pokrenete ovu aplikaciju kao administrator da omogućite ovu opciju.</value>
   </data>
   <data name="AdminStartupSetting.Header" xml:space="preserve">
-    <value>Jalankan sebagai Administrator saat Startup</value>
+    <value>Pokreći kao administrator pri prijavljivanju</value>
   </data>
   <data name="ContributorsLabel.Text" xml:space="preserve">
-    <value>Kontributor:</value>
+    <value>Doprineli:</value>
   </data>
   <data name="TrayIconVisibilitySetting.Description" xml:space="preserve">
-    <value>Tampilkan ikon aplikasi di area notifikasi</value>
+    <value>Prikaži ikonicu aplikacije u oblasti za obaveštenja</value>
   </data>
   <data name="TrayIconVisibilitySetting.Header" xml:space="preserve">
-    <value>Tampilkan ikon tray</value>
+    <value>Prikaži ikonicu u paleti</value>
   </data>
   <data name="ExitSetting.Header" xml:space="preserve">
-    <value>Keluar</value>
+    <value>Izađi</value>
   </data>
 </root>

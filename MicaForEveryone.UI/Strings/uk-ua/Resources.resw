@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,40 +118,40 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AboutTitle.Text" xml:space="preserve">
-    <value>Tentang aplikasi ini</value>
+    <value>Про додаток</value>
   </data>
   <data name="AcrylicBackdropDescription.Text" xml:space="preserve">
-    <value>Akrilik memaksa semua aplikasi untuk menggunakan efek latar buram bergaya Windows 10.</value>
+    <value>Acrylic змушує всі додатки використовувати ефект розмиття фону у стилі Windows 10.</value>
   </data>
   <data name="AcrylicMenuItem.Text" xml:space="preserve">
-    <value>Akrilik</value>
+    <value>Acrylic</value>
   </data>
   <data name="AddButton.Content" xml:space="preserve">
-    <value>Tambah</value>
+    <value>Додати</value>
   </data>
   <data name="AddClassRuleContentDialog.Title" xml:space="preserve">
-    <value>Aturan Class Baru</value>
+    <value>Нове правило класу</value>
   </data>
   <data name="AddClassRuleMenuItem.Text" xml:space="preserve">
-    <value>Tambah Aturan Class</value>
+    <value>Додати правило класу</value>
   </data>
   <data name="AddProcessRuleContentDialog.Title" xml:space="preserve">
-    <value>Aturan Proses Baru</value>
+    <value>Нове правило процесу</value>
   </data>
   <data name="AddProcessRuleMenuItem.Text" xml:space="preserve">
-    <value>Tambah Aturan Proses</value>
+    <value>Додати правило процесу</value>
   </data>
   <data name="AddRuleAppBarButton.Label" xml:space="preserve">
-    <value>Tambah Aturan</value>
+    <value>Додати правило</value>
   </data>
   <data name="AddRuleDialog.Title" xml:space="preserve">
-    <value>Tambah Aturan</value>
+    <value>Додати правило</value>
   </data>
   <data name="AdvancedMenu.Text" xml:space="preserve">
-    <value>Berkas konfigurasi</value>
+    <value>Файл конфігурації</value>
   </data>
   <data name="AppInitializationError.Title" xml:space="preserve">
-    <value>Kesalahan saat menginisialisasi aplikasi</value>
+    <value>Помилка під час ініціалізації додатку</value>
   </data>
   <data name="AppName" xml:space="preserve">
     <value>Mica For Everyone</value>
@@ -160,169 +160,169 @@
     <value>Mica For Everyone</value>
   </data>
   <data name="BackdropDescription.Text" xml:space="preserve">
-    <value>Tetapkan jenis tampilan latar,</value>
+    <value>Встановлює тип фону,</value>
   </data>
   <data name="BackdropMenu.Text" xml:space="preserve">
-    <value>Jenis Tampilan Latar</value>
+    <value>Тип фону</value>
   </data>
   <data name="BackdropTypeSetting.Header" xml:space="preserve">
-    <value>Jenis Tampilan Latar</value>
+    <value>Тип фону</value>
   </data>
   <data name="BlurBehindSetting.Description" xml:space="preserve">
-    <value>Membuat jendela tembus dan buram. Menonaktifkan opsi ini mengharuskan Anda menutup dan membuka kembali jendela yang terpengaruh.</value>
+    <value>Робить вікна напівпрозорими та розмитими. Вимкнення цієї опції вимагає закриття та повторного відкриття відповідних вікон.</value>
   </data>
   <data name="BlurBehindSetting.Header" xml:space="preserve">
-    <value>Buram di Belakang</value>
+    <value>Фонове розмиття</value>
   </data>
   <data name="BrowseButton.Content" xml:space="preserve">
-    <value>Jelajahi</value>
+    <value>Огляд</value>
   </data>
   <data name="CancelButton.Content" xml:space="preserve">
-    <value>Batal</value>
+    <value>Скасувати</value>
   </data>
   <data name="ClassNameSuggestBox.Description" xml:space="preserve">
-    <value>Masukkan nama Class jendela</value>
+    <value>Введіть назву класу вікна</value>
   </data>
   <data name="ClassNameSuggestBox.Header" xml:space="preserve">
-    <value>Nama Class:</value>
+    <value>Назва класу:</value>
   </data>
   <data name="CloseButton.Content" xml:space="preserve">
-    <value>Tutup</value>
+    <value>Закрити</value>
   </data>
   <data name="ConfigFileError.Content" xml:space="preserve">
-    <value>Kesalahan dalam berkas konfigurasi:
+    <value>Помилка у файлі конфігурації:
 {0}
 
-Perbaiki kesalahan lalu gunakan opsi "Muat ulang file konfigurasi" untuk memuatnya kembali.</value>
+Виправте помилки, а після скористайтеся опцією "Перезавантажити файл конфігурації", щоб перезавантажитись.</value>
   </data>
   <data name="ConfigFileError.Header" xml:space="preserve">
-    <value>Kesalahan dalam berkas konfigurasi</value>
+    <value>Помилка у файлі конфігурації</value>
   </data>
   <data name="ConfigFilePathSetting.Description" xml:space="preserve">
-    <value>Berkas yang akan digunakan untuk menyimpan dan memuat aturan.</value>
+    <value>Файл для збереження та завантаження правил.</value>
   </data>
   <data name="ConfigFilePathSetting.Header" xml:space="preserve">
-    <value>Jalur Berkas</value>
+    <value>Шлях до файлу</value>
   </data>
   <data name="DarkMenuItem.Text" xml:space="preserve">
-    <value>Gelap</value>
+    <value>Темний</value>
   </data>
   <data name="DarkTitlebarColorDescription.Text" xml:space="preserve">
-    <value>Gelap menggunakan tema gelap.</value>
+    <value>Темний режим використовує темну тему.</value>
   </data>
   <data name="DefaultBackdropDescription.Text" xml:space="preserve">
-    <value>Default tidak melakukan apa pun untuk mempertahankan tampilan latar default aplikasi.</value>
+    <value>Режим "За замовчуванням" нічого не робить для збереження звичайного фону додатка.</value>
   </data>
   <data name="DefaultMenuItem.Text" xml:space="preserve">
-    <value>Default</value>
+    <value>За замовчуванням</value>
   </data>
   <data name="DefaultTitlebarColorDescription.Text" xml:space="preserve">
-    <value>Opsi "Default" menyimpan tema bawaan aplikasi.</value>
+    <value>Режим "За замовчуванням" зберігає тему додатка за замовчуванням.</value>
   </data>
   <data name="ExitMenuItem.Text" xml:space="preserve">
-    <value>Keluar</value>
+    <value>Вийти</value>
   </data>
   <data name="ExtendFrameIntoClientAreaSetting.Header" xml:space="preserve">
-    <value>Perluas Bingkai Ke Area Klien</value>
+    <value>Розширити рамку вікна в клієнтську область</value>
   </data>
   <data name="ExtendFrameIntoClientAreaSetting.Description" xml:space="preserve">
-    <value>Perluas bingkai jendela ke area kliennya untuk menambahkan latar belakang di latar belakang beberapa aplikasi. Itu tidak berfungsi pada setiap aplikasi dan dapat merusaknya, jadi jangan aktifkan ini kecuali Anda tahu apa yang Anda lakukan. Menonaktifkan opsi ini mengharuskan Anda menutup dan membuka kembali jendela yang terpengaruh.</value>
+    <value>Розширює рамку вікна в клієнтську область для додавання фону на задній план деяких додатків. Не працює з усіма додатками і може зламати їх, тому не вмикайте цю опцію, якщо ви не знаєте, що робите. Вимкнення цієї опції вимагає закриття і повторного відкриття відповідних вікон.</value>
   </data>
   <data name="GeneralPaneItem.Text" xml:space="preserve">
-    <value>Umum</value>
+    <value>Загальні</value>
   </data>
   <data name="GeneralSetting.Header" xml:space="preserve">
-    <value>Umum</value>
+    <value>Загальні</value>
   </data>
   <data name="GitHubButton.Content" xml:space="preserve">
     <value>GitHub</value>
   </data>
   <data name="GlobalRulePaneItem.Text" xml:space="preserve">
-    <value>Aturan Global</value>
+    <value>Глобальне правило</value>
   </data>
   <data name="LanguageSetting.Description" xml:space="preserve">
-    <value>Setel bahasa pilihan Anda untuk UI. Aplikasi perlu restart untuk diterapkan.</value>
+    <value>Встановіть бажану мову інтерфейсу. Для внесення змін перезапустіть додаток.</value>
   </data>
   <data name="LanguageSetting.Header" xml:space="preserve">
-    <value>Bahasa</value>
+    <value>Мова</value>
   </data>
   <data name="LightMenuItem.Text" xml:space="preserve">
-    <value>Terang</value>
+    <value>Світлий</value>
   </data>
   <data name="LightTitlebarColorDescription.Text" xml:space="preserve">
-    <value>Terang menggunakan tema terang.</value>
+    <value>Світлий режим використовує світлу тему.</value>
   </data>
   <data name="MicaBackdropDescription.Text" xml:space="preserve">
-    <value>Mika memaksa semua aplikasi untuk menggunakan efek backdrop wallpaper berwarna gaya Windows 11.</value>
+    <value>Mica змушує всі додатки використовувати ефект розмиття шпалер у стилі Windows 11.</value>
   </data>
   <data name="MicaMenuItem.Text" xml:space="preserve">
-    <value>Mika</value>
+    <value>Mica</value>
   </data>
   <data name="NoneBackdropDescription.Text" xml:space="preserve">
-    <value>"Tidak ada" menonaktifkan tampilan latar, bahkan pada aplikasi yang telah mengaktifkannya.</value>
+    <value>Вимикає фон навіть у додатках, де він був.</value>
   </data>
   <data name="NoneMenuItem.Text" xml:space="preserve">
-    <value>Tidak ada</value>
+    <value>Ніякий</value>
   </data>
   <data name="OkButton.Text" xml:space="preserve">
-    <value>Baik</value>
+    <value>ОК</value>
   </data>
   <data name="OpenInEditorMenuItem.Text" xml:space="preserve">
-    <value>Buka di penyunting teks</value>
+    <value>Відкрити в текстовому редакторі</value>
   </data>
   <data name="ProcessNameSuggestBox.Description" xml:space="preserve">
-    <value>Masukkan nama berkas yang dapat dieksekusi tanpa ekstensi (.exe)</value>
+    <value>Введіть назву виконуваного файлу без розширення (.exe)</value>
   </data>
   <data name="ProcessNameSuggestBox.Header" xml:space="preserve">
-    <value>Nama Proses:</value>
+    <value>Назва процесу:</value>
   </data>
   <data name="ReloadMenuItem.Text" xml:space="preserve">
-    <value>Muat ulang</value>
+    <value>Перезавантажити</value>
   </data>
   <data name="ReloadOnChangeSetting.Description" xml:space="preserve">
-    <value>Muat ulang konfigurasi secara otomatis saat file konfigurasi diubah.</value>
+    <value>Перезавантажує конфігурацію автоматично при зміні конфігураційного файлу.</value>
   </data>
   <data name="ReloadOnChangeSetting.Header" xml:space="preserve">
-    <value>Muat ulang pada perubahan</value>
+    <value>Перезавантажуватись при змінах</value>
   </data>
   <data name="RemoveRuleAppBarButton.Label" xml:space="preserve">
-    <value>Hapus Aturan</value>
+    <value>Видалити правило</value>
   </data>
   <data name="SettingsMenuItem.Text" xml:space="preserve">
-    <value>Setelan</value>
+    <value>Налаштування</value>
   </data>
   <data name="SettingsTitle.Text" xml:space="preserve">
-    <value>Setelan</value>
+    <value>Налаштування</value>
   </data>
   <data name="StartupSetting.Description" xml:space="preserve">
-    <value>Jalankan aplikasi ini secara otomatis saat startup.</value>
+    <value>Запускати додаток автоматично під час запуску системи.</value>
   </data>
   <data name="StartupSetting.Header" xml:space="preserve">
-    <value>Mulai ketika startup</value>
+    <value>Автозавантаження</value>
   </data>
   <data name="SystemMenuItem.Text" xml:space="preserve">
-    <value>Sistem</value>
+    <value>Системний</value>
   </data>
   <data name="SystemTitlebarColorDescription.Text" xml:space="preserve">
-    <value>Sistem menggunakan preferensi tema Anda.</value>
+    <value>Використовує вашу обрану системну тему.</value>
   </data>
   <data name="TabbedBackdropDescription.Text" xml:space="preserve">
-    <value>Tab memaksa semua aplikasi untuk menggunakan efek latar wallpaper buram.</value>
+    <value>Змушує всі додатки використовувати ефект розмиття фонових шпалер.</value>
   </data>
   <data name="TabbedMenuItem.Text" xml:space="preserve">
-    <value>Bertab</value>
+    <value>Tabbed</value>
   </data>
   <data name="TelegramButton.Content" xml:space="preserve">
     <value>Telegram</value>
   </data>
   <data name="TitlebarColorDescription.Text" xml:space="preserve">
-    <value>Tetapkan tema warna bilah judul,</value>
+    <value>Встановити кольорову тему заголовків вікон,</value>
   </data>
   <data name="TitlebarColorMenu.Text" xml:space="preserve">
-    <value>Warna Bilah Judul</value>
+    <value>Колір заголовка</value>
   </data>
   <data name="TitleBarColorSetting.Header" xml:space="preserve">
-    <value>Warna Bilah Judul</value>
+    <value>Колір заголовка</value>
   </data>
   <data name="TrayIconTooltip.Content" xml:space="preserve">
     <value>Mica For Everyone</value>
@@ -331,105 +331,105 @@ Perbaiki kesalahan lalu gunakan opsi "Muat ulang file konfigurasi" untuk memuatn
     <value>Twitter</value>
   </data>
   <data name="UnhandledException.Header" xml:space="preserve">
-    <value>Pengecualian Tidak Tertangani</value>
+    <value>Необроблюване виключення</value>
   </data>
   <data name="UnhandledUIException.Header" xml:space="preserve">
-    <value>Pengecualian Tidak Tertangani di UI</value>
+    <value>Необроблюване виключення в інтерфейсі</value>
   </data>
   <data name="UnsupportedBackdropDescription.Text" xml:space="preserve">
-    <value>Efek latar belakang Akrilik dan Tab membutuhkan setidaknya Windows build 22523.</value>
+    <value>Ефекти "Acrylic" і "Tabbed" потребують принаймні Windows версії 22523.</value>
   </data>
   <data name="UnsupportedImmersiveDarkModeDescription.Text" xml:space="preserve">
-    <value>Mode Gelap Imersif membutuhkan setidaknya Windows build 19041.</value>
+    <value>Для імерсивного темного режиму потрібна версія Windows 19041 та вище.</value>
   </data>
   <data name="UnsupportedMicaDescription.Text" xml:space="preserve">
-    <value>Efek mika membutuhkan setidaknya Windows build 22000.</value>
+    <value>Ефект "Mica" потребує принаймні Windows версії 22000.</value>
   </data>
   <data name="VersionLabel.Text" xml:space="preserve">
-    <value>Versi</value>
+    <value>Версія</value>
   </data>
   <data name="AdvancedSetting.Header" xml:space="preserve">
-    <value>Lanjutan</value>
+    <value>Додатково</value>
   </data>
   <data name="ConfigFileSetting.Header" xml:space="preserve">
-    <value>Berkas konfigurasi</value>
+    <value>Файл конфігурації</value>
   </data>
   <data name="StyleSetting.Header" xml:space="preserve">
-    <value>Gaya</value>
+    <value>Стиль</value>
   </data>
   <data name="OpenInEditorSetting.Description" xml:space="preserve">
-    <value>Buka berkas konfigurasi di editor teks default Anda.</value>
+    <value>Відкрити файл конфігурації в стандартному текстовому редакторі.</value>
   </data>
   <data name="OpenInEditorSetting.Header" xml:space="preserve">
-    <value>Ubah di editor teks</value>
+    <value>Редагувати в текстовому редакторі</value>
   </data>
   <data name="ReloadSetting.Description" xml:space="preserve">
-    <value>Muat ulang aturan dari berkas konfigurasi lalu terapkan ke semua jendela yang terbuka.</value>
+    <value>Перезавантажує правила з файлу конфігурації та застосовує їх до всіх відкритих вікон.</value>
   </data>
   <data name="ReloadSetting.Header" xml:space="preserve">
-    <value>Muat ulang</value>
+    <value>Перезавантажити</value>
   </data>
   <data name="ResetSetting.Description" xml:space="preserve">
-    <value>Pulihkan aturan default dan hapus semua perubahan.</value>
+    <value>Відновити стандартні правила і видалити всі зміни.</value>
   </data>
   <data name="ResetSetting.Header" xml:space="preserve">
-    <value>Reset</value>
+    <value>Відновити</value>
   </data>
   <data name="Credit.Text" xml:space="preserve">
-    <value>Oleh</value>
+    <value>Від</value>
   </data>
   <data name="IconCredit.Text" xml:space="preserve">
-    <value>Ikon oleh:</value>
+    <value>Іконка від:</value>
   </data>
   <data name="TranslatorsCredit.Text" xml:space="preserve">
-    <value>Terjemahan oleh:</value>
+    <value>Переклали:</value>
   </data>
   <data name="CornerMenu.Text" xml:space="preserve">
-    <value>Modus Sudut</value>
+    <value>Режим закруглення рамок</value>
   </data>
   <data name="CornerPreferenceSetting.Header" xml:space="preserve">
-    <value>Modus Sudut</value>
+    <value>Режим закруглення рамок</value>
   </data>
   <data name="SquareMenuItem.Text" xml:space="preserve">
-    <value>Persegi</value>
+    <value>Гострі</value>
   </data>
   <data name="RoundedMenuItem.Text" xml:space="preserve">
-    <value>Membulat</value>
+    <value>Закруглені</value>
   </data>
   <data name="RoundedSmallMenuItem.Text" xml:space="preserve">
-    <value>Agak membulat</value>
+    <value>Злегка закруглені</value>
   </data>
   <data name="CornerDescription.Text" xml:space="preserve">
-    <value>Setel mode pembulatan sudut,</value>
+    <value>Встановити режим закруглення кутів,</value>
   </data>
   <data name="DefaultCornerDescription.Text" xml:space="preserve">
-    <value>Default tidak melakukan apa pun untuk mempertahankan mode pembulatan sudut yang disukai aplikasi.</value>
+    <value>Режим "За замовчуванням" нічого не робить, щоб зберегти поточний режим закруглення кутів у додатку.</value>
   </data>
   <data name="SquareCornerDescription.Text" xml:space="preserve">
-    <value>Mode persegi menonaktifkan pembulatan sudut.</value>
+    <value>Режим "Гострі" вимикає закруглення кутів.</value>
   </data>
   <data name="RoundedCornerDescription.Text" xml:space="preserve">
-    <value>Mode membulat memungkinkan sudut membulat secara paksa.</value>
+    <value>Режим "Закруглені" примусово закруглює кути.</value>
   </data>
   <data name="RoundedSmallCornerDescription.Text" xml:space="preserve">
-    <value>Mode agak membulat berada di tengah antara sudut persegi dan sudut membulat.</value>
+    <value>Режим "Злегка закруглені" являє собою щось середнє між квадратними та закругленими кутами.</value>
   </data>
   <data name="AdminStartupSetting.Description" xml:space="preserve">
-    <value>Jalankan aplikasi ini secara otomatis sebagai administrator saat startup. Anda perlu menjalankan aplikasi sebagai Administrator untuk mengaktifkan opsi ini.</value>
+    <value>Автоматично запускати додаток від імені адміністратора під час завантаження системи. Для активації цього параметра запустіть додаток від імені адміністратора.</value>
   </data>
   <data name="AdminStartupSetting.Header" xml:space="preserve">
-    <value>Jalankan sebagai Administrator saat Startup</value>
+    <value>Запускати від імені адміністратора під час завантаження системи</value>
   </data>
   <data name="ContributorsLabel.Text" xml:space="preserve">
-    <value>Kontributor:</value>
+    <value>Учасники:</value>
   </data>
   <data name="TrayIconVisibilitySetting.Description" xml:space="preserve">
-    <value>Tampilkan ikon aplikasi di area notifikasi</value>
+    <value>Відображати іконку додатка в області сповіщень</value>
   </data>
   <data name="TrayIconVisibilitySetting.Header" xml:space="preserve">
-    <value>Tampilkan ikon tray</value>
+    <value>Відображати іконку в треї</value>
   </data>
   <data name="ExitSetting.Header" xml:space="preserve">
-    <value>Keluar</value>
+    <value>Вихід</value>
   </data>
 </root>
