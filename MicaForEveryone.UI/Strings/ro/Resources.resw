@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,40 +118,40 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AboutTitle.Text" xml:space="preserve">
-    <value>Про додаток</value>
+    <value>Despre aplicație</value>
   </data>
   <data name="AcrylicBackdropDescription.Text" xml:space="preserve">
-    <value>Acrylic змушує всі додатки використовувати ефект розмиття фону у стилі Windows 10.</value>
+    <value>Acirilic forțează toate aplicațiile în a folosi stilul de fundal din Windows 10.</value>
   </data>
   <data name="AcrylicMenuItem.Text" xml:space="preserve">
-    <value>Acrylic</value>
+    <value>Acirilic</value>
   </data>
   <data name="AddButton.Content" xml:space="preserve">
-    <value>Додати</value>
+    <value>Adaugă</value>
   </data>
   <data name="AddClassRuleContentDialog.Title" xml:space="preserve">
-    <value>Нове правило класу</value>
+    <value>Clasă nouă de reguli</value>
   </data>
   <data name="AddClassRuleMenuItem.Text" xml:space="preserve">
-    <value>Додати правило класу</value>
+    <value>Adaugă o clasă de reguli</value>
   </data>
   <data name="AddProcessRuleContentDialog.Title" xml:space="preserve">
-    <value>Нове правило процесу</value>
+    <value>Regulă nouă pentru procese</value>
   </data>
   <data name="AddProcessRuleMenuItem.Text" xml:space="preserve">
-    <value>Додати правило процесу</value>
+    <value>Adaugă regulă pentru procese</value>
   </data>
   <data name="AddRuleAppBarButton.Label" xml:space="preserve">
-    <value>Додати правило</value>
+    <value>Adaugare regulă</value>
   </data>
   <data name="AddRuleDialog.Title" xml:space="preserve">
-    <value>Додати правило</value>
+    <value>Adaugă regulă</value>
   </data>
   <data name="AdvancedMenu.Text" xml:space="preserve">
-    <value>Файл конфігурації</value>
+    <value>Fișier de configurare</value>
   </data>
   <data name="AppInitializationError.Title" xml:space="preserve">
-    <value>Помилка під час ініціалізації додатку</value>
+    <value>Eroare la inițializarea aplicației</value>
   </data>
   <data name="AppName" xml:space="preserve">
     <value>Mica For Everyone</value>
@@ -160,169 +160,172 @@
     <value>Mica For Everyone</value>
   </data>
   <data name="BackdropDescription.Text" xml:space="preserve">
-    <value>Встановлює тип фону,</value>
+    <value>Setează stilul fundalului,</value>
   </data>
   <data name="BackdropMenu.Text" xml:space="preserve">
-    <value>Тип фону</value>
+    <value>Tip de fundal</value>
   </data>
   <data name="BackdropTypeSetting.Header" xml:space="preserve">
-    <value>Тип фону</value>
+    <value>Tip de fundal</value>
   </data>
   <data name="BlurBehindSetting.Description" xml:space="preserve">
-    <value>Робить вікна напівпрозорими та розмитими. Вимкнення цієї опції вимагає закриття та повторного відкриття відповідних вікон.</value>
+    <value>Ferestrele vor fi transparente și cu efect de blur. Dezactivarea acestei opțiuni va necesita închiderea și redeschiderea ferestrelor afectate.</value>
   </data>
   <data name="BlurBehindSetting.Header" xml:space="preserve">
-    <value>Фонове розмиття</value>
+    <value>Blur în fundal</value>
   </data>
   <data name="BrowseButton.Content" xml:space="preserve">
-    <value>Огляд</value>
+    <value>Răsfoiește</value>
   </data>
   <data name="CancelButton.Content" xml:space="preserve">
-    <value>Скасувати</value>
+    <value>Anulează</value>
   </data>
   <data name="ClassNameSuggestBox.Description" xml:space="preserve">
-    <value>Введіть назву класу вікна</value>
+    <value>Introduceți numele clasei de ferestre</value>
   </data>
   <data name="ClassNameSuggestBox.Header" xml:space="preserve">
-    <value>Назва класу:</value>
+    <value>Nume Clasă:</value>
   </data>
   <data name="CloseButton.Content" xml:space="preserve">
-    <value>Закрити</value>
+    <value>Închide</value>
   </data>
   <data name="ConfigFileError.Content" xml:space="preserve">
-    <value>Помилка у файлі конфігурації:
+    <value>Eroare în fișierul de configurare
 {0}
 
-Виправте помилки, а після скористайтеся опцією "Перезавантажити файл конфігурації", щоб перезавантажитись.</value>
+Rezolvă problemele, apoi apasă opțiunea "Reîncărcare fișier de configurare" pentru a reîncărca configurația.</value>
   </data>
   <data name="ConfigFileError.Header" xml:space="preserve">
-    <value>Помилка у файлі конфігурації</value>
-  </data>
-  <data name="ConfigFilePathSetting.Description" xml:space="preserve">
-    <value>Файл для збереження та завантаження правил.</value>
+    <value>Eroare în fișierul de configurare</value>
   </data>
   <data name="ConfigFilePathSetting.Header" xml:space="preserve">
-    <value>Шлях до файлу</value>
+    <value>Cale către fișierul de configurare</value>
   </data>
   <data name="DarkMenuItem.Text" xml:space="preserve">
-    <value>Темний</value>
+    <value>Întunecat</value>
   </data>
   <data name="DarkTitlebarColorDescription.Text" xml:space="preserve">
-    <value>Темний режим використовує темну тему.</value>
+    <value>Se va folosi tema întunecată.</value>
   </data>
   <data name="DefaultBackdropDescription.Text" xml:space="preserve">
-    <value>Режим "За замовчуванням" нічого не робить для збереження звичайного фону додатка.</value>
+    <value>Modul Implicit nu modifică nimic pentru a păstra fundalul implicit de către aplicație.</value>
   </data>
   <data name="DefaultMenuItem.Text" xml:space="preserve">
-    <value>За замовчуванням</value>
+    <value>Implicit</value>
   </data>
   <data name="DefaultTitlebarColorDescription.Text" xml:space="preserve">
-    <value>Режим "За замовчуванням" зберігає тему додатка за замовчуванням.</value>
+    <value>Opțiunea "Implicit" păstrează tema implicită a aplicației.</value>
   </data>
   <data name="ExitMenuItem.Text" xml:space="preserve">
-    <value>Вийти</value>
+    <value>Ieșire</value>
   </data>
   <data name="ExtendFrameIntoClientAreaSetting.Header" xml:space="preserve">
-    <value>Розширити рамку вікна в клієнтську область</value>
+    <value>Extinde cadrul în zona de client</value>
+    <comment>Needs to be improved
+Used DeepL.</comment>
   </data>
   <data name="ExtendFrameIntoClientAreaSetting.Description" xml:space="preserve">
-    <value>Розширює рамку вікна в клієнтську область для додавання фону на задній план деяких додатків. Не працює з усіма додатками і може зламати їх, тому не вмикайте цю опцію, якщо ви не знаєте, що робите. Вимкнення цієї опції вимагає закриття і повторного відкриття відповідних вікон.</value>
+    <value>Extinde cadrul ferestrei în zona sa de client pentru a adăuga un fundal pe fundalul unor aplicații. Nu funcționează pe toate aplicațiile și le poate strica, așa că nu activați acest lucru decât dacă știți ce faceți. Dezactivarea acestei opțiuni necesită să închideți și să redeschideți ferestrele afectate.</value>
+    <comment>Needs to be improved
+Used DeepL.</comment>
   </data>
   <data name="GeneralPaneItem.Text" xml:space="preserve">
-    <value>Загальні</value>
+    <value>General</value>
   </data>
   <data name="GeneralSetting.Header" xml:space="preserve">
-    <value>Загальні</value>
+    <value>General</value>
   </data>
   <data name="GitHubButton.Content" xml:space="preserve">
     <value>GitHub</value>
   </data>
   <data name="GlobalRulePaneItem.Text" xml:space="preserve">
-    <value>Глобальне правило</value>
+    <value>Reguli Globale</value>
   </data>
   <data name="LanguageSetting.Description" xml:space="preserve">
-    <value>Встановіть бажану мову інтерфейсу. Для внесення змін перезапустіть додаток.</value>
+    <value>Setează limba pentru interfața de utilizator. Aplicația va necesita o repornire pentru ca schimbarea să intre în vigoare.</value>
   </data>
   <data name="LanguageSetting.Header" xml:space="preserve">
-    <value>Мова</value>
+    <value>Limbă</value>
   </data>
   <data name="LightMenuItem.Text" xml:space="preserve">
-    <value>Світлий</value>
+    <value>Luminos</value>
   </data>
   <data name="LightTitlebarColorDescription.Text" xml:space="preserve">
-    <value>Світлий режим використовує світлу тему.</value>
+    <value>Se va folosi tema luminoasă.</value>
   </data>
   <data name="MicaBackdropDescription.Text" xml:space="preserve">
-    <value>Mica змушує всі додатки використовувати ефект розмиття шпалер у стилі Windows 11.</value>
+    <value>Mica forțează toate aplicațiile in a folosi stilul de fundal ușor colorat din Windows 11.</value>
   </data>
   <data name="MicaMenuItem.Text" xml:space="preserve">
     <value>Mica</value>
   </data>
   <data name="NoneBackdropDescription.Text" xml:space="preserve">
-    <value>Вимикає фон навіть у додатках, де він був.</value>
+    <value>'Niciuna' dezactivează efectele de fundal, chiar și în aplicațiile care au efectul activat.</value>
   </data>
   <data name="NoneMenuItem.Text" xml:space="preserve">
-    <value>Ніякий</value>
+    <value>Niciuna</value>
   </data>
   <data name="OkButton.Text" xml:space="preserve">
-    <value>ОК</value>
+    <value>OK</value>
   </data>
   <data name="OpenInEditorMenuItem.Text" xml:space="preserve">
-    <value>Відкрити в текстовому редакторі</value>
+    <value>Deschide în editor text</value>
   </data>
   <data name="ProcessNameSuggestBox.Description" xml:space="preserve">
-    <value>Введіть назву виконуваного файлу без розширення (.exe)</value>
+    <value>Introdu numelele executabilului, fără extensia (.exe)</value>
   </data>
   <data name="ProcessNameSuggestBox.Header" xml:space="preserve">
-    <value>Назва процесу:</value>
+    <value>Nume Proces:</value>
   </data>
   <data name="ReloadMenuItem.Text" xml:space="preserve">
-    <value>Перезавантажити</value>
+    <value>Reîncarcă</value>
   </data>
   <data name="ReloadOnChangeSetting.Description" xml:space="preserve">
-    <value>Перезавантажує конфігурацію автоматично при зміні конфігураційного файлу.</value>
+    <value>Reîncarcă configurația automat când fișierul de configurare primește schimbări.</value>
   </data>
   <data name="ReloadOnChangeSetting.Header" xml:space="preserve">
-    <value>Перезавантажуватись при змінах</value>
+    <value>Reîncarcă la modificarea configurării</value>
   </data>
   <data name="RemoveRuleAppBarButton.Label" xml:space="preserve">
-    <value>Видалити правило</value>
+    <value>Șterge regulă</value>
   </data>
   <data name="SettingsMenuItem.Text" xml:space="preserve">
-    <value>Налаштування</value>
+    <value>Setări</value>
   </data>
   <data name="SettingsTitle.Text" xml:space="preserve">
-    <value>Налаштування</value>
+    <value>Setări</value>
   </data>
   <data name="StartupSetting.Description" xml:space="preserve">
-    <value>Запускати додаток автоматично під час запуску системи.</value>
+    <value>Aplicația va porni automat după conectarea în Windows.</value>
   </data>
   <data name="StartupSetting.Header" xml:space="preserve">
-    <value>Автозавантаження</value>
+    <value>Rulează la pornire</value>
   </data>
   <data name="SystemMenuItem.Text" xml:space="preserve">
-    <value>Системний</value>
+    <value>Sistem</value>
   </data>
   <data name="SystemTitlebarColorDescription.Text" xml:space="preserve">
-    <value>Використовує вашу обрану системну тему.</value>
+    <value>Sistemul utilizează tema preferată.</value>
   </data>
   <data name="TabbedBackdropDescription.Text" xml:space="preserve">
-    <value>Змушує всі додатки використовувати ефект розмиття фонових шпалер.</value>
+    <value>Va forța toate aplicațiile în a folosi un efect de blur la fundal.</value>
   </data>
   <data name="TabbedMenuItem.Text" xml:space="preserve">
-    <value>Tabbed</value>
+    <value>Cu file</value>
+    <comment>Needs to be improved // Couldn't find a better wording alt.
+Used DeepL.</comment>
   </data>
   <data name="TelegramButton.Content" xml:space="preserve">
     <value>Telegram</value>
   </data>
   <data name="TitlebarColorDescription.Text" xml:space="preserve">
-    <value>Встановити кольорову тему заголовків вікон,</value>
+    <value>Setează tema de culoare la bara de titlu,</value>
   </data>
   <data name="TitlebarColorMenu.Text" xml:space="preserve">
-    <value>Колір заголовка</value>
+    <value>Culoarea barei de titlu</value>
   </data>
   <data name="TitleBarColorSetting.Header" xml:space="preserve">
-    <value>Колір заголовка</value>
+    <value>Culoarea barei de titlu</value>
   </data>
   <data name="TrayIconTooltip.Content" xml:space="preserve">
     <value>Mica For Everyone</value>
@@ -331,105 +334,105 @@
     <value>Twitter</value>
   </data>
   <data name="UnhandledException.Header" xml:space="preserve">
-    <value>Необроблюване виключення</value>
+    <value>Problemă neașteptată</value>
   </data>
   <data name="UnhandledUIException.Header" xml:space="preserve">
-    <value>Необроблюване виключення в інтерфейсі</value>
+    <value>Problemă neașteptată în UI</value>
   </data>
   <data name="UnsupportedBackdropDescription.Text" xml:space="preserve">
-    <value>Ефекти "Acrylic" і "Tabbed" потребують принаймні Windows версії 22523.</value>
+    <value>Efectele de fundal Acirilic cu file necesită măcar Windows build 22523.</value>
   </data>
   <data name="UnsupportedImmersiveDarkModeDescription.Text" xml:space="preserve">
-    <value>Для імерсивного темного режиму потрібна версія Windows 19041 та вище.</value>
+    <value>Modul Întunecat imersiv necesită măcar Windows build 19041.</value>
   </data>
   <data name="UnsupportedMicaDescription.Text" xml:space="preserve">
-    <value>Ефект "Mica" потребує принаймні Windows версії 22000.</value>
+    <value>Efectul Mica necesită măcar Windows build 22000.</value>
   </data>
   <data name="VersionLabel.Text" xml:space="preserve">
-    <value>Версія</value>
+    <value>Versiune</value>
   </data>
   <data name="AdvancedSetting.Header" xml:space="preserve">
-    <value>Додатково</value>
+    <value>Avansat</value>
   </data>
   <data name="ConfigFileSetting.Header" xml:space="preserve">
-    <value>Файл конфігурації</value>
+    <value>Fișier de configurare</value>
   </data>
   <data name="StyleSetting.Header" xml:space="preserve">
-    <value>Стиль</value>
+    <value>Stil</value>
   </data>
   <data name="OpenInEditorSetting.Description" xml:space="preserve">
-    <value>Відкрити файл конфігурації в стандартному текстовому редакторі.</value>
+    <value>Deschide fișier de configurare în editorul de text prestabilit.</value>
   </data>
   <data name="OpenInEditorSetting.Header" xml:space="preserve">
-    <value>Редагувати в текстовому редакторі</value>
+    <value>Editează în editor text</value>
   </data>
   <data name="ReloadSetting.Description" xml:space="preserve">
-    <value>Перезавантажує правила з файлу конфігурації та застосовує їх до всіх відкритих вікон.</value>
+    <value>Reîncarcă regulile din fișierul de configurare, apoi se aplică la toate ferestrele deschise.</value>
   </data>
   <data name="ReloadSetting.Header" xml:space="preserve">
-    <value>Перезавантажити</value>
+    <value>Reîncarcă</value>
   </data>
   <data name="ResetSetting.Description" xml:space="preserve">
-    <value>Відновити стандартні правила і видалити всі зміни.</value>
+    <value>Restaurează regulile implicite și anulează toate schimbările.</value>
   </data>
   <data name="ResetSetting.Header" xml:space="preserve">
-    <value>Відновити</value>
+    <value>Resetează</value>
   </data>
   <data name="Credit.Text" xml:space="preserve">
-    <value>Від</value>
+    <value>De către</value>
   </data>
   <data name="IconCredit.Text" xml:space="preserve">
-    <value>Іконка від:</value>
+    <value>Iconiță de către:</value>
   </data>
   <data name="TranslatorsCredit.Text" xml:space="preserve">
-    <value>Переклали:</value>
+    <value>Traduceri de către:</value>
   </data>
   <data name="CornerMenu.Text" xml:space="preserve">
-    <value>Режим закруглення рамок</value>
+    <value>Tip de rotunjire a colțurilor</value>
   </data>
   <data name="CornerPreferenceSetting.Header" xml:space="preserve">
-    <value>Режим закруглення рамок</value>
+    <value>Tip de rotunjire a colțurilor</value>
   </data>
   <data name="SquareMenuItem.Text" xml:space="preserve">
-    <value>Гострі</value>
+    <value>Pătrat</value>
   </data>
   <data name="RoundedMenuItem.Text" xml:space="preserve">
-    <value>Закруглені</value>
+    <value>Rotunjit</value>
   </data>
   <data name="RoundedSmallMenuItem.Text" xml:space="preserve">
-    <value>Злегка закруглені</value>
+    <value>Ușor Rotunjit</value>
   </data>
   <data name="CornerDescription.Text" xml:space="preserve">
-    <value>Встановити режим закруглення кутів,</value>
+    <value>Setează tipul de rotunjire al colțurilor,</value>
   </data>
   <data name="DefaultCornerDescription.Text" xml:space="preserve">
-    <value>Режим "За замовчуванням" нічого не робить, щоб зберегти поточний режим закруглення кутів у додатку.</value>
+    <value>Modul Implicit nu modifică nimic, pentru a păstra modul de rotunjire al colțurilor preferat de aplicație.</value>
   </data>
   <data name="SquareCornerDescription.Text" xml:space="preserve">
-    <value>Режим "Гострі" вимикає закруглення кутів.</value>
+    <value>Modul pătrățos dezactivează rotunjirea colțurilor.</value>
   </data>
   <data name="RoundedCornerDescription.Text" xml:space="preserve">
-    <value>Режим "Закруглені" примусово закруглює кути.</value>
+    <value>Modul rotunjit forțează activarea colțurilor rotunjite.</value>
   </data>
   <data name="RoundedSmallCornerDescription.Text" xml:space="preserve">
-    <value>Режим "Злегка закруглені" являє собою щось середнє між квадратними та закругленими кутами.</value>
+    <value>Modul Ușor Rotunjit este o combinație dintre modul pătrățos si modul rotunjit.</value>
   </data>
   <data name="AdminStartupSetting.Description" xml:space="preserve">
-    <value>Автоматично запускати додаток від імені адміністратора під час завантаження системи. Для активації цього параметра запустіть додаток від імені адміністратора.</value>
+    <value>Rulează această aplicație ca Administrator automat la pornire. Trebuie sa rulezi această aplicație ca Administrator ca să poți activa această opțiune.</value>
   </data>
   <data name="AdminStartupSetting.Header" xml:space="preserve">
-    <value>Запускати від імені адміністратора під час завантаження системи</value>
+    <value>Rulează ca Administrator la pornire</value>
   </data>
   <data name="ContributorsLabel.Text" xml:space="preserve">
-    <value>Учасники:</value>
+    <value>Contribuitori:</value>
   </data>
   <data name="TrayIconVisibilitySetting.Description" xml:space="preserve">
-    <value>Відображати іконку додатка в області сповіщень</value>
+    <value>Arată iconița aplicației in zona de notificări</value>
   </data>
   <data name="TrayIconVisibilitySetting.Header" xml:space="preserve">
-    <value>Відображати іконку в треї</value>
+    <value>Arată iconița în tray</value>
   </data>
   <data name="ExitSetting.Header" xml:space="preserve">
-    <value>Вихід</value>
+    <value>Ieșire</value>
   </data>
 </root>
